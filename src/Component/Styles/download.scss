@@ -1,0 +1,62 @@
+@import '../Variable/variable.scss';
+
+.downloaded{
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.btn {
+    background-color: $backgroundColor;
+}
+.btn:hover{
+    background-color: $blackColor;
+}
+.textarea{
+   
+  margin-left: 2rem;
+    height: 20%;
+    width: 20%;
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+.form-grouping{
+    margin-top: 2rem;
+    width: 80%;
+    height: 80%;
+   
+}
+.uploadButton{
+   
+   display: flex;
+   margin-top: 2rem;
+   justify-content: space-around;
+   
+}
+.form{
+ margin-top: 4rem;
+ position: relative;
+}
+.container{
+    margin-top: 2rem;
+    color:$blackColor;
+    text-align: center;
+
+
+}
+h2{
+    text-align: center;
+    font-size: $fontSize;
+}
+.richtext{
+    width: 90%;
+    height: 90%;
+    margin-left: 10rem;
+    
+    position: relative;
+
+}
+.text-editor{
+    background-color: $backgroundColor;
+    
+}
